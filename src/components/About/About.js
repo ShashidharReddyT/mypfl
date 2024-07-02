@@ -4,7 +4,6 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -31,7 +30,12 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src="https://www.simplilearn.com/ice9/free_resources_article_thumb/full_front_back.jpg"
+              alt="about"
+              className="img-fluid"
+              style={{ borderRadius: "10px" }}
+            />
           </Col>
         </Row>
         <h1 className="project-heading">

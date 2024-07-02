@@ -1,14 +1,17 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904));
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
 
-  --image-gradient: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863));
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
 
   --imp-text-color: #2c6cab;
-
 }
 
 .purple {
@@ -414,10 +417,19 @@ button:focus {
   color: #87209e !important;
 }
 
-.container-fluid {
-  background-color: #040404;
+.home-section {
+  background-color: #0c0513;
 }
-
+.home-about-section {
+  background-color: #0c0513;
+  z-index: -2;
+}
+.about-section {
+  background-color: #0c0513;
+}
+.project-section {
+  background-color: #0c0513;
+}
 /* --------- */
 /* Footer */
 /* --------- */
@@ -529,6 +541,10 @@ button:focus {
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
 
+.project-card-view card {
+  background-color: yellow;
+}
+
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
@@ -555,7 +571,6 @@ button:focus {
   color: #fff !important;
   background-color: #2c6cab !important;
   border-color: #2c6cab !important;
-
 }
 
 .btn:focus {
@@ -578,7 +593,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
