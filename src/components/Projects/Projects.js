@@ -72,7 +72,6 @@ function Projects() {
               githubLink="https://github.com/ShashidharReddyT/javascriptprojectmd"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mealplanner}

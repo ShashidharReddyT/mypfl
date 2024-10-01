@@ -8,17 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shashidhar Reddy </span>
-            from <span className="purple"> Telangana, India.</span>
-            <br /> I am a Mechanical Engineer from Methodist college of
-            engineering, Abids.
-            <br />
-            Additionally, I am currently taking training on Full Stack
-            Development in Newton School.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            {" "}
+            Hi everyone, I am <span className="purple">
+              Shashidhar Reddy
+            </span>{" "}
+            from <span className="purple">Telangana, India.</span> <br />
+            I hold a degree in Mechanical Engineering from Methodist College of
+            Engineering, Abids. <br />
+            Additionally, I have completed a Full Stack Java Developer program
+            at Newton School, where I learned Java, HTML, CSS, JavaScript,
+            React.js, MongoDB, and MySQL. <br /> <br />
+            Apart from coding, there are several activities that I love to do!{" "}
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games

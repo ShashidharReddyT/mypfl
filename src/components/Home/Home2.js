@@ -18,38 +18,36 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Detail-Oriented Front-End Developer with Strong Web Development
+              Skills, Focused on Creating User-Friendly and Visually Appealing
+              Websites.
               <br />
-              <br />I am good in classics like
+              <br />I have a strong foundation in classic technologies like{" "}
               <i>
-                <b className="purple"> Java, HTML, CSS, Javascript.</b>
+                <b className="purple">Java, HTML, CSS, and JavaScript.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include creating innovative{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">web technologies and products</b>
               </i>
-              and also in areas related to{" "}
-              <b className="purple">Frontend Development.</b>
+              , with a particular focus on{" "}
+              <b className="purple">frontend development.</b>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with HTML, CSS, Javascript<b className="purple"></b> and
+              I’m passionate about developing user-friendly products using HTML,
+              CSS, and JavaScript, as well as modern libraries and frameworks
+              like{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple">React.js.</b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js.</b>
-              </i>
+              <br />
+              <br />I believe in continuous learning and strive to keep my
+              skills updated.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,7 +60,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -70,7 +68,7 @@ function Home2() {
                   href="https://github.com/ShashidharReddyT"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +78,7 @@ function Home2() {
                   href="https://twitter.com/Redmi46467103"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +88,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/shashidhar-reddy-26a734205/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -112,4 +110,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

@@ -549,7 +549,7 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-  width: 400px !important;
+  /* width: 400px !important; */
   height: 220px !important;
 }
 
